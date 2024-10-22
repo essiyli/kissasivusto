@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/etusivu.css">
+    <title> Learn English with Cats</title>
+</head>
+<body>
+    <div id="tervehdys">
+        <p id="muuttuvaAlkuteksti">Tervetuloa oppimaan englantia kissojen kanssa! <br>
+        Jos olet uusi pelaaja, kirjoita alle nimesi:</p>
+        <form action="" id="nameForm">
+            <input type="text" id="userName" placeholder="Kirjoita nimesi" required>
+            <button type="submit" id="nimiNappi">Tallenna nimi</button>
+        </form>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item" id="naviVasen">
+            <a href="./kissanosat.html"><img src="./navivasemmalle.png" alt="Opettele sanoja"></a>
+        </div>
+        <div class="grid-item" id="isoLogo">
+            <img src="./etusivuLogo.png" alt="Sivuston logo">
+        </div>
+        <div class="grid-item" id="naviOikea">
+            <a href="./randomkissa.html"><img src="./navioikealle.png" alt="Testaa taitosi"></a>
+        </div>
+    </div>
+    <script src="./js/etusivu.js"></script>
+</body>
+</html>

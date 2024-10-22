@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: #98eae2;
+}
+
+#tervehdys {
+    margin-top: 4%;
+    font-size: 300%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    width: 80%; 
+    margin: auto; 
+}
+
+.grid-item {
+    position: relative;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#userName {
+    width: 250px;
+    height: 60px;
+    font-size: 80%;
+    text-align: center;
+    margin-top: 2%;
+
+}
+
+#userNameInput:focus::placeholder {
+    color: transparent;
+  }
+
+#nimiNappi {
+  background-color: #f1bf4d;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+  font-size: 80%;
+  margin-top: 2%;
+}
+
+@media (max-width: 600px) {
+    #tervehdys {
+        font-size: 100%;
+        text-wrap: balance
+    }
+    .grid-container {
+        grid-template-columns: 1fr;
+        width: 70%;    
+    }
+
+    #naviVasen {
+        margin-bottom: 55%;
+    }
+
+    #userName{
+        width: 230px;
+        height: 35px;
+        font-size: 180%;
+        text-align: center;
+        margin-top: 3%;
+
+    }
+
+    #nimiNappi {
+        background-color: #f1bf4d;
+        color: black;
+        padding: 5px 30px;
+        text-align: center;
+        text-decoration: none;
+        display:inline-block;
+        font-size: 155%;
+        margin-top: 2%;
+      }
+}
+
+
+
