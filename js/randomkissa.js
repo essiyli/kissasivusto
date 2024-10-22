@@ -1,4 +1,4 @@
-const apiKey = 'live_vWmVXl7VQjNKsNvm80ea4ykzxEayV4UYA5ephshQnAOx6m2WaB1cVXwtcQl17IU7'
+const apiKey = 'laita tähän apivain'
        
 const kissaKuvaTehtava = document.getElementById('tehtavaKuva')
 
@@ -26,7 +26,7 @@ document.querySelector('#randomTehtava').addEventListener('submit', (event) => {
             uusiTehtava()
         } else {
             document.querySelector('input').value ='';
-            catImage.src = 'wronganswer.png'
+            catImage.src = './kuvat/wronganswer.png'
             
         }
 
@@ -44,27 +44,27 @@ const uusiTehtava = () => {
     
     switch (randomNum) {
     case 1:
-        kissaKuvaTehtava.src = './kissa' + randomNum + '.png';
+        kissaKuvaTehtava.src = './kuvat/kissa' + randomNum + '.png';
         oikeaVastaus = 'tail';
         break;
     case 2:
-        kissaKuvaTehtava.src = './kissa' + randomNum + '.png';
+        kissaKuvaTehtava.src = './kuvat/kissa' + randomNum + '.png';
         oikeaVastaus = 'ear';
         break;
     case 3:
-        kissaKuvaTehtava.src = './kissa' + randomNum + '.png';
+        kissaKuvaTehtava.src = './kuvat/kissa' + randomNum + '.png';
         oikeaVastaus = 'back';
         break;
     case 4:
-        kissaKuvaTehtava.src = './kissa' + randomNum + '.png';
+        kissaKuvaTehtava.src = './kuvat/kissa' + randomNum + '.png';
         oikeaVastaus = 'paw'
         break;
     case 5:
-        kissaKuvaTehtava.src = './kissa' + randomNum + '.png';
+        kissaKuvaTehtava.src = './kuvat/kissa' + randomNum + '.png';
         oikeaVastaus = 'tummy'
         break;
     case 6:
-        kissaKuvaTehtava.src = './kissa' + randomNum + '.png';
+        kissaKuvaTehtava.src = './kuvat/kissa' + randomNum + '.png';
         oikeaVastaus = 'whiskers'
         break;
     }
