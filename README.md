@@ -1,8 +1,8 @@
-# Englannin Kielen Opetussivusto
+# Englannin opetussivusto Learn English with Cats
 
 Tämä sivusto on kehitetty osana tietojenkäsittelyn tradenomin opintoja. Projekti keskittyy englannin kielen sanaston harjoitteluun kissa-aiheiden avulla.
 
-## Projektin Kuvastus
+## Projektin Kuvaus
 
 Sivusto tarjoaa käyttäjille mahdollisuuden harjoitella englannin kieltä interaktiivisten harjoitusten avulla. Pääsivuna toimii `index.html`, josta käyttäjä voi navigoida muihin sivuston HTML-sivuihin.
 
